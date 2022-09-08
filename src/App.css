@@ -1,9 +1,9 @@
 .App {
-  width: 800px;
-  height: 200px;
+  margin-top: 100px;
+  width: 700px;
+  height: 350px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   position: relative;
-  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,9 +13,22 @@
 .quote {
   margin-top: 20px;
   height: 80%;
-  width: 70%;
+  width: 90%;
   font-size: 20px;
-  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.author {
+  margin-top: 20px;
+  margin-right: 0;
 }
 
 .buttons {
@@ -23,5 +36,21 @@
   height: 20%;
   display: flex;
   justify-content: space-around;
-  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
 }
