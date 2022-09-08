@@ -48,9 +48,11 @@ function App() {
         </div>
       ))}
       <div className="buttons">
-        <a href="twitter.com/intent/tweet" id="tweet-quote" target="_blank">
-          tweet
-        </a>
+        <button className="btn">
+          <a href="twitter.com/intent/tweet" id="tweet-quote" target="_blank">
+            tweet
+          </a>
+        </button>
         <button onClick={next} className="btn" id="new-quote">
           New quote
         </button>
