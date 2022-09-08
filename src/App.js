@@ -42,7 +42,7 @@ function App() {
           <p className="text" id="text">
             {item.text}
           </p>
-          <p className="author" id="author=">
+          <p className="author" id="author">
             {item.author}
           </p>
         </div>
